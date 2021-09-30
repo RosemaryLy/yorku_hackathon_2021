@@ -30,6 +30,13 @@ Second prototype is for the recruiter: https://www.figma.com/proto/FebJoSmvq6f2p
 
     > npm start.
 
+### If npm doesn't start, try
+    npm install react-scripts
+
+### and/or
+
+    npm install bootstrap
+
 ### DATABASE
 CREATE DATABASE IF NOT EXISTS York_hiring_place;
 

@@ -1,5 +1,5 @@
 import * as jwt from "jsonwebtoken";
-import db from "../../../database/connection";
+import db from "../../../database/connection.js";
 
 const jwtVerify = (req, res, next) => {
   const authHeader = req.headers["authorization"];

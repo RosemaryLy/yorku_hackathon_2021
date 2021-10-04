@@ -1,6 +1,6 @@
 import express from "express";
-import { validationCheckEntries } from "./APIHelpers/middleware";
-import db from "../../database/connection";
+import { validationCheckEntries } from './APIhelpers/middleware.js';
+import db from "../../database/connection.js";
 
 const router = express.Router();
 

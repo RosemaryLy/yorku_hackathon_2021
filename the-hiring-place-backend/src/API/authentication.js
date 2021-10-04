@@ -1,7 +1,7 @@
 import express from "express";
 import * as jwtGenerator from "jsonwebtoken";
 import bcrypt from "bcrypt";
-import db from "../../database/connection";
+import db from "../../database/connection.js";
 
 import dotenv from "dotenv";
 dotenv.config();

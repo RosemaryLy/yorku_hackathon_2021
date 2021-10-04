@@ -5,6 +5,7 @@
   },
   "name": "the-hiring-place-backend",
   "version": "1.0.0",
+  "type": "module",
   "main": "server.js",
   "author": "Donald Kurangwa",
   "license": "ISC",

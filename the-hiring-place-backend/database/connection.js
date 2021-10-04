@@ -5,14 +5,14 @@ dotenv.config();
 
 const configuration = {
   user: process.env.DATABASE_USER,
-  password: process.env.DATABASE_PASSWORD,
+  password: process.env.DATABASE_PASS,
   database: process.env.DATABASE_NAME,
 };
 
 if (process.env.DATABASE_SOCKET) {
     configuration.socketPath = process.env.DATABASE_SOCKET
 } else {
-    configuration.host = process.env.DATABASE_HOST
+    configuration.host = process.env.DB_HOST
 }
 
 const mysqlConnection = mysql.createConnection(configuration);

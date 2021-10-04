@@ -6,7 +6,7 @@ services:
             context: .
         command: "./wait-for-it.sh db:3306 --strict --timeout=300 -- node server.js"
         ports: 
-            - "4005:4000"
+            - "4000:4000"
         depends_on: 
             - db
         env_file:

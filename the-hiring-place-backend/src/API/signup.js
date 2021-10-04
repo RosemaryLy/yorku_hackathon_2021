@@ -1,7 +1,7 @@
 import express from "express";
 import bcrypt from "bcrypt";
-import db from "../../database/connection";
-import { validationCheckUsers } from "./APIHelpers/middleware";
+import db from "../../database/connection.js";
+import { validationCheckUsers } from './APIhelpers/middleware.js';
 
 const router = express.Router();
 
